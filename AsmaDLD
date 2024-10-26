@@ -1,0 +1,14 @@
+package inheritance;
+
+public class Inheritance {
+
+    public static void main(String[] args) 
+    {
+      SmartPhones sp=new SmartPhones(60,"SAMSUNG","s24",8000);  
+      //Access the inherited properties
+      System.out.println("Brand: "+sp.getBrand());
+      System.out.println("Model: "+sp.getModel());
+      System.out.println("Batter Life: "+sp.getBatteryLife());
+      System.out.println("Camera Resolution: "+sp.getCameraResolution());
+    }
+}
